@@ -1,0 +1,381 @@
+@CHARSET "utf-8";
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {			/* 最小屏幕   */
+	width: 100%;
+	min-width: 1400px;
+	/* max-width: 1400px; */
+	/* width: expression_r(Math.max ( 1000, Math.min ( 1200, document.body.offsetWidth
+		* 0.99) )+"px" );  
+	width: expression_r(document.body.clientWidth <           1400 ?          
+		"1400px" :  "auto");  */
+		
+}
+
+.login-reg #islogin {
+	position: absolute;
+	color: grey;
+	font-weight: bold;
+	font-family: SimSun;
+	margin: 10px 0 0 1100px;
+}
+
+.login-reg #islogin a{
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}
+
+.login-reg #islogin a:hover {
+	color: sienna;
+}
+
+#login {
+	position: absolute;
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+
+}
+#login:hover {
+	color: sienna;
+}
+#register {
+	position: absolute;
+	text-decoration: none;
+	color: grey;
+	font-weight: bold;
+}
+#register:hover{
+	color: sienna;
+}
+
+#header img {      /*  当当网图片	*/
+	margin-left: 10%;
+	width: 150px;
+	margin-top: 5px;
+	
+}
+
+
+#header .activities {    /* 活动菜单  */
+	display:inline-block;
+	width: 300px;
+	height: 35px;
+	float: right;
+	margin: 38px 10% 0 0;
+	background-color: #EAFFFA;
+	border: 1px solid #C8ECE3;
+}
+
+#header .activities a {
+	float: left;
+	margin: 0 10px;
+	padding:3px;
+	line-height: 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	
+}
+
+#header .activities a:hover {
+	height: 29px;
+	background: #fff;
+}
+
+#header .activities img {  /* 3折疯抢  */
+	position: absolute;
+	width: 60px;
+	margin: -10px 0 0 12px;
+}
+
+#header .nav {      /* 类别菜单  */
+	width: 80%;
+	margin: 0 10% 0 10%;
+	background: #FF6600;
+	height: 40px;
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+}
+
+#header .nav ul {
+	margin: 0 auto;
+	list-style: none;
+}
+
+#header .nav ul li {
+	float: left;
+	width: 5.7%;
+	height: 35px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#header .nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#header .nav ul li a:hover {
+	height: 40px;
+	background: #fff;
+	color: #000;
+}
+
+
+#content img {     /* 宽图 */
+	margin: 10px 10% 0 10%;
+	width: 80%;
+}
+
+#content .sellers{   	/*畅销榜*/
+	margin: 8px 10% 0 10%;
+	height:500px;
+	border: 2px solid #CCE9AC;
+	/* position: relative; */
+}
+
+#content .sellers .sellers-logo {
+	position: absolute; 
+	width: 300px;
+	margin: 20px 0 0 -42px;
+	
+}
+
+#content .sellers .bookFirst  {  /*Best First*/
+	/* border: 2px solid #CCE9AC; */
+	width:400px;
+	/* position: absolute; */ 
+	margin: 120px 0 0 -30px;
+	
+	
+}
+
+#content .sellers .bookFirstLogo {
+	/* border: 2px solid #CCE9AC; */
+	display:inline-block;
+	position:absolute; 
+	width: 40px;
+	margin: -350px 0 0 30px;
+	
+}
+
+
+#content .sellers .bookFirstDetail{
+	/* border: 2px solid #CCE9AC; */
+	position:absolute;
+	float:left;
+	width:380px;
+	margin: -300px 0 0 320px;
+	line-height: 30px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+#content .sellers .bookFirstDetail .bookFirstname{
+	text-decoration: none;
+	color: #1A66BB;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+
+#content .sellers .bookFirstDetail .cny {
+	color: #8E102B;
+	font-family: Microsoft Yahei;
+	font-size:18px;
+	font-weight: 700;
+	margin: 0 0 0 10px;
+	
+}
+
+
+#content .sellers .bookSec  {  /*Best Second*/
+	/* border: 2px solid #CCE9AC; */
+	display:inline-block;
+	float: left;
+	margin: -360px 0 0 700px;
+	width: 150px;
+}
+
+#content .sellers .bookSecLogo {
+	/* border: 2px solid #CCE9AC; */
+	position: absolute; 
+	float:left;
+	width: 40px;
+	margin: -370px 0 0 710px;
+}
+
+#content .sellers .bookSecDetail {
+	/* border: 2px solid #CCE9AC; */
+	float: left;
+	width: 270px;
+	margin: -360px 0 0 840px;
+	line-height: 28px;
+	font-weight:600;
+	font-size: 14px;
+	
+	
+}
+
+#content .sellers .bookSecDetail .bookSecname{
+	color: #1A66BB;	
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#content .sellers .bookSecDetail .cny{   
+	color: #8E102B;
+	font-family: Microsoft Yahei;
+	font-size:18px;
+	font-weight: 700;
+}
+
+#content .sellers .bookSecDetail .discount{
+	margin: 0 0 0 10px;
+	color: #5EA593;
+	font-family: KaiTi;
+	font-size:18px;
+}
+
+
+#content .sellers .bookThird {   /*Best Third*/
+	/* border: 2px solid #CCE9AC; */
+	float: left;
+	margin: -160px 0 0 716px;
+	width: 130px;
+	
+}
+
+#content .sellers .bookThirdLogo{
+	/* border: 2px solid #CCE9AC; */
+	position: absolute; 
+	float:left;
+	width: 34px;
+	margin: -160px 0 0 716px;
+	
+}
+
+#content .sellers .bookThirdDetail {
+	/* border: 2px solid #CCE9AC; */
+	float: left;
+	width: 270px;
+	margin: -145px 0 0 840px;
+	line-height: 28px;
+	font-weight:600;
+	font-size: 14px;
+	
+}
+
+#content .sellers .bookThirdDetail .bookThirdname {
+	color: #1A66B3;	
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+
+#content .sellers .bookThirdDetail .cny{
+	color: #8E102B;
+	font-family: Microsoft Yahei;
+	font-size:18px;
+	font-weight: 700;
+}
+
+#content .sellers .bookThirdDetail .discount {
+	margin: 0 0 0 10px;
+	color: #5EA593;
+	font-family: KaiTi;
+	font-size:18px;
+}
+
+
+
+#footer {
+	margin: 10px 10% 0 10%;
+	text-align: center;
+	font-family: Microsoft Yahei;
+	color: grey;
+}
+
+
+
+/* 响应式布局 */
+@media screen and (max-width:1600px) {
+	#login {
+		margin: 10px 0 0 1250px;
+	}
+
+	#register {
+		margin: 10px 0 0 1290px;
+	}
+
+	#content .sellers .bookSecDetail {
+		width: 360px;
+		font-size: 15px;
+    }
+    
+    #content .sellers .bookThirdDetail {
+		width: 360px;
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:1500px) {
+	#login {
+		margin: 10px 0 0 1100px;
+	}
+
+	#register {
+		margin: 10px 0 0 1140px;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	#login {
+		margin: 10px 0 0 1000px;
+	}
+
+	#register {
+		margin: 10px 0 0 1040px;
+	}
+
+	#content .sellers .bookSecDetail {
+		width: 270px;
+		font-size: 15px;
+    }
+    
+    #content .sellers .bookThirdDetail {
+		width: 270px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:1200px){
+	#login {
+		margin: 10px 0 0 900px;
+	}
+
+	#register {
+		margin: 10px 0 0 940px;
+	}
+
+}
+
+@media screen and (max-width:1000px){
+	#login {
+		margin: 10px 0 0 800px;
+	}
+
+	#register {
+		margin: 10px 0 0 840px;
+	}
+
+}
+
+

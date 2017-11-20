@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	/* background-color: red; */
+	background-color: #F4F4F4;
+}
+
+#content{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#panel{
+	border: 1px solid #ddd; 
+	padding: 20px;
+	display: inline-block;
+	/*margin:0px 330px 0px 330px; */
+	background-color: white;
+	border-radius:5px;
+
+}
+
+/* 账号和密码 输入框 */
+#panel .group input{
+	display: block;
+	width: 250px;
+	height: 33px;
+	padding-left: 7px;
+	border: 1px solid #ddd;
+	font-size: 15px;
+}
+
+#panel .group input:focus{
+	outline: none;
+	border-left-color:#CC865E; 
+}
+
+/* 验证码输入框 */
+#panel .group #randomCode {
+	width: 170px;
+	display: inline-block;
+
+}
+
+#panel .group #randomCodeImg {
+	float: right;
+	/*margin: 10px 0 0 0;*/
+}
+
+
+
+
+/* 账号和密码 文字 */
+#panel .group label{
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+}
+
+/*  按钮的一样的属性*/
+#content button{
+	color: white;
+	font-size: 18px;
+	height: 33px;
+	border: 0px;
+}
+
+/*登录*/
+#content .login{
+	margin-top: 20px;
+}
+
+#content .login button{
+	width: 240px;
+	background-color: #CC865E;
+	
+	
+}
+
+#content .login button:hover{
+	background-color: white;
+	color: #CC865E;
+	border: 1px solid #CC865E;
+    cursor: pointer;
+}
+
+/*注册*/
+
+#content .reg{
+	margin-top: 20px;
+}
+
+#content .reg button{
+	width: 180px;
+	background-color: #466BAF;
+}
+
+#content .reg button:hover{
+	background-color: white;
+	color: #466BAF;
+	border: 1px solid #466BAF;
+	cursor: pointer;
+}
+
+
+
+
